@@ -29,7 +29,7 @@ function gameLoop(timeStamp) {
   secondsPassed = (timeStamp - oldTimeStamp) / 1000;
   oldTimeStamp = timeStamp;
   fps = Math.round(1 / secondsPassed);
-  console.log(fps);
+
   drawGalaxy();
   updateGalaxy();
   window.requestAnimationFrame(gameLoop);
