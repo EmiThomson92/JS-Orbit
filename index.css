@@ -1,6 +1,7 @@
 html *{
     color: green;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 body{
     background: black;
