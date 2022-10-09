@@ -1,0 +1,7 @@
+html *{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: black;
+}
